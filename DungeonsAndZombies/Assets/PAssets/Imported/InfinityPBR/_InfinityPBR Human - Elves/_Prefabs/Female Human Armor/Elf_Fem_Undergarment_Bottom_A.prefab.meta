@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e2a6378701b534afa95020552012bb83
+labels:
+- Elf
+- Female
+- Infinity
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Female Human Armor/Elf_Fem_Undergarment_Bottom_A.prefab
+  uploadId: 586912

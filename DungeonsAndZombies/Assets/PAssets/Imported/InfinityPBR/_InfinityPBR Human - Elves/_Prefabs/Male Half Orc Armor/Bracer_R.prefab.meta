@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: dcace37fd68a6402aab8e311ad4d77a5
+labels:
+- Elf
+- Infinity
+- Male
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Male Half Orc Armor/Bracer_R.prefab
+  uploadId: 586912

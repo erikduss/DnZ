@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: cb4daa54c18db4b9e8ff615839a60000
+labels:
+- Elf
+- Infinity
+- Male
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Male Half Orc Armor/Poleyn_Spikes_R.prefab
+  uploadId: 586912

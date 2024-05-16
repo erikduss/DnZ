@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 79d118d3c558f47d1b4c7f9046149aaa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/Demo Scripts/DemoControl.cs
+  uploadId: 586912

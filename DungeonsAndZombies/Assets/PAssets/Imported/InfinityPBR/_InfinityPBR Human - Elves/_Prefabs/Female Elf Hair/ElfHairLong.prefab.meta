@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ccdc8e093350243ef802b94b744ffb14
+labels:
+- Elf
+- Female
+- Hair
+- Infinity
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Female Elf Hair/ElfHairLong.prefab
+  uploadId: 586912

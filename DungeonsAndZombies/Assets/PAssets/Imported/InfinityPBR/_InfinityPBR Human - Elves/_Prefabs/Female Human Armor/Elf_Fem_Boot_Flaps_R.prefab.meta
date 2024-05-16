@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 0d2bbba9e62bf440ab4aec91cea6ea87
+labels:
+- Elf
+- Female
+- Infinity
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Female Human Armor/Elf_Fem_Boot_Flaps_R.prefab
+  uploadId: 586912

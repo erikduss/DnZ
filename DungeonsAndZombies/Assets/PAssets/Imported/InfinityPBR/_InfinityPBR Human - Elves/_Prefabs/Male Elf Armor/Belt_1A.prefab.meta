@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 6f529680827da42fb83794dcf0487d53
+labels:
+- Elf
+- Infinity
+- Male
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Male Elf Armor/Belt_1A.prefab
+  uploadId: 586912

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 4650897e456d04dbe8ec1090b7878a09
+labels:
+- Elf
+- Female
+- Infinity
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Female Half Orc Armor/Shinguard_L.prefab
+  uploadId: 586912

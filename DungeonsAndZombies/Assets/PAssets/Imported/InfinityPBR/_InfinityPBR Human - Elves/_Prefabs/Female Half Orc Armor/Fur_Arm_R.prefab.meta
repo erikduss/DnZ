@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 5e63ba6e602ab45aabbd4c116038ec3e
+labels:
+- Elf
+- Female
+- Infinity
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Female Half Orc Armor/Fur_Arm_R.prefab
+  uploadId: 586912

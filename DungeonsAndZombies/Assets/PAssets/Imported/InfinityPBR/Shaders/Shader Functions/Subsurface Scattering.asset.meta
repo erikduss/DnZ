@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5fc3947ab881fac449027203ace33981
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/Shaders/Shader Functions/Subsurface
+    Scattering.asset
+  uploadId: 586912

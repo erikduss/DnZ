@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 524e0f305f8d73d4c852b86451c77463
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/Shaders/AV/Hair/AV URP
+    Hair.shader
+  uploadId: 586912

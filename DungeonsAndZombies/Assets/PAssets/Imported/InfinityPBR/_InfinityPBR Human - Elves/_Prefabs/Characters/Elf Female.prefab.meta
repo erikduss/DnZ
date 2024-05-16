@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 586f793a36cd64986a4f576f601f42b8
+labels:
+- Elf
+- Female
+- Infinity
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Characters/Elf Female.prefab
+  uploadId: 586912

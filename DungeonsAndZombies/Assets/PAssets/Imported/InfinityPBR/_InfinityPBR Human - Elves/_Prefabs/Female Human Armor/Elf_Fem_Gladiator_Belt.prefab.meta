@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e8b32300ca9cf4fa0b55bbd06a776abe
+labels:
+- Elf
+- Female
+- Infinity
+- Wardrobe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/_InfinityPBR Human -
+    Elves/_Prefabs/Female Human Armor/Elf_Fem_Gladiator_Belt.prefab
+  uploadId: 586912

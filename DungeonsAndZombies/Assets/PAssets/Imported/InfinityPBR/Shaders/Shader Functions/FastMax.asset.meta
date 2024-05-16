@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 77893a230aa5d4a43b6f6510820a4d66
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141802
+  packageName: Elf Character (Male & Female) - Fantasy RPG
+  packageVersion: 4.2
+  assetPath: Assets/ProjectAssets/ImportedAssets/InfinityPBR/Shaders/Shader Functions/FastMax.asset
+  uploadId: 586912
