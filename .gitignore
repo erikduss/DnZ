@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+*_clone_[0-9]*/
+*.bak
+*.dat
+DungeonsAndZombies/Assets/Data/Animations/Umotion/WarriorUmotionProfile.asset
+DungeonsAndZombies/Assets/Data/Animations/Umotion/WarriorUmotionProfile.asset.meta

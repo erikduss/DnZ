@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3438734407885278106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3438734407885278100}
+  - component: {fileID: 3438734407885278101}
+  m_Layer: 0
+  m_Name: World Save Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3438734407885278100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438734407885278106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.48269275, y: -2.9803965, z: 19.399418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3438734407885278101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438734407885278106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2ab0ffe2d4c942a62e7953925d1c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  saveGame: 0
+  loadGame: 0
+  worldSceneIndex: 2
+  worldSceneName: Scene_World_01
+  currentCharacterSlotBeingUsed: 0
+  currentCharacterData:
+    sceneIndex: 1
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 100
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot01:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot02:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot03:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot04:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot05:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot06:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot07:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot08:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot09:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  characterSlot10:
+    sceneIndex: 6
+    characterName: Character
+    secondsPlayed: 0
+    xPosition: 0
+    yPosition: 0
+    zPosition: 0
+    currentHealth: 0
+    currentStamina: 0
+    vitality: 15
+    endurance: 10
+    bossesAwakened:
+      keys: 
+      values: 
+    bossesDefeated:
+      keys: 
+      values: 
+  dummySpawner: {fileID: 3428074805070032650, guid: 37c88163a2e180c4ba3a15b8d755d58b, type: 3}
+  worldNetworkObjectPoolManagerPrefab: {fileID: 3163915196024471394, guid: 5eea62b16b3a2214b8ce54807994179c, type: 3}
