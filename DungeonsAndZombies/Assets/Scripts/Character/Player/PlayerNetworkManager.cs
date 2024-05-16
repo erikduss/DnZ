@@ -21,9 +21,6 @@ namespace Erikduss
         public NetworkVariable<bool> isUsingRightHand = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
         public NetworkVariable<bool> isUsingLeftHand = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
 
-        public NetworkVariable<int> playerMaterialID = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server); //Only the server assigns colors.
-        public NetworkVariable<Color> playerCustomMaterialColor = new NetworkVariable<Color>(Color.magenta, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
-
         protected override void Awake()
         {
             base.Awake();
@@ -50,23 +47,6 @@ namespace Erikduss
             maxHealth.Value = player.playerStatsManager.CalculateHealthBasedOnVitalityLevel(newVitality);
             PlayerUIManager.instance.playerUIHudManager.SetMaxHealthValue(maxHealth.Value);
             currentHealth.Value = maxHealth.Value;
-        }
-
-        public void SetNewMaxStaminaValue(int oldEndurance, int newEndurance)
-        {
-            maxStamina.Value = player.playerStatsManager.CalculateStaminaBasedOnEnduranceLevel(newEndurance);
-            PlayerUIManager.instance.playerUIHudManager.SetMaxStaminaValue(maxStamina.Value);
-            currentStamina.Value = maxStamina.Value;
-        }
-
-        public void OnMaterialIDChange(int oldID, int newID)
-        {
-            PlayerMaterialManagement.Instance.SetMaterial(player, newID, playerCustomMaterialColor.Value, false);
-        }
-
-        public void OnMaterialColorChange(Color oldColor, Color newColor)
-        {
-            PlayerMaterialManagement.Instance.SetMaterial(player, playerMaterialID.Value, newColor, true);
         }
 
         public void OnCurrentRightHandWeaponIDChange(int oldID, int newID)

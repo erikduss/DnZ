@@ -82,8 +82,6 @@ namespace Erikduss
             WorldSaveGameManager.instance.currentCharacterData.bossesAwakened.Remove(0);
             WorldSaveGameManager.instance.currentCharacterData.bossesAwakened.Add(0, false);
 
-            IxeleceMaterialManagement.Instance.ClearMaterialLists();
-
             //ensure the player is back at 0,0,0 before healing and returning them back to life.
             WorldGameSessionManager.Instance.TeleportLocalPlayerToSpawn();
             yield return new WaitForSeconds(1f);
@@ -140,8 +138,6 @@ namespace Erikduss
             Destroy(WorldProjectilesManager.Instance.gameObject);
             //world action manager
             Destroy(WorldActionManager.Instance.gameObject);
-            //player material manager
-            Destroy(PlayerMaterialManagement.Instance.gameObject);
             //this
             Destroy(WorldSaveGameManager.instance.gameObject);
 
@@ -162,7 +158,7 @@ namespace Erikduss
             if (WorldActionManager.Instance == null && ConnectionManager.Instance == null && WorldGameSessionManager.Instance == null
                 && PlayerUIManager.instance == null && PlayerInputManager.instance == null && PlayerCamera.instance == null
                 && WorldSoundFXManager.instance == null && WorldItemDatabase.Instance == null && WorldProjectilesManager.Instance == null
-                && WorldActionManager.Instance == null && PlayerMaterialManagement.Instance == null && WorldSaveGameManager.instance == null)
+                && WorldActionManager.Instance == null && WorldSaveGameManager.instance == null)
             {
                 success = true;
                 SceneManager.LoadScene(sceneNameToLoadTo); //go back to splash screen

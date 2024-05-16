@@ -170,8 +170,6 @@ namespace Erikduss
             character.characterLocomotionManager.canRotate = canRotate;
             character.characterLocomotionManager.canMove = canMove;
 
-            Debug.Log(targetAnimation);
-
             //Tell the server/host we played an animation and to play that animation.
             character.characterNetworkManager.NotifyTheServerOfActionAnimationServerRpc(NetworkManager.Singleton.LocalClientId, targetAnimation, applyRootMotion);
         }

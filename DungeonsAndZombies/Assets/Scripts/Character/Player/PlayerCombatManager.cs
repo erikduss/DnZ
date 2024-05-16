@@ -76,8 +76,6 @@ namespace Erikduss
                     Debug.LogError("ATTACK TYPE MODIFIER IS NOT IMPLEMENTED");
                     break;
             }
-
-            player.playerNetworkManager.currentStamina.Value -= Mathf.RoundToInt(staminaDeducted);
         }
 
         public override void SetTarget(CharacterManager newTarget)

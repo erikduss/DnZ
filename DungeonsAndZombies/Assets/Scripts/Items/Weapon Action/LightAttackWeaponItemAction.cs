@@ -28,10 +28,6 @@ namespace Erikduss
             if (playerPerformingAction.playerNetworkManager.currentHealth.Value <= 0)
                 return;
 
-            //prevent the attack being used when not having enough stamina.
-            if (playerPerformingAction.playerNetworkManager.currentStamina.Value <= 0)
-                return;
-
             if (!playerPerformingAction.characterLocomotionManager.isGrounded)
             {
                 if (!playerPerformingAction.isPerformingAction)

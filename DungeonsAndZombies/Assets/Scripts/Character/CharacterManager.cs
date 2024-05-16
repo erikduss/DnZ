@@ -128,9 +128,6 @@ namespace Erikduss
 
         public void GrandInvincibility()
         {
-            //Show indicator on all clients
-            PlayerMaterialManagement.Instance.SetInvincibilityIndicator(this.gameObject, true);
-
             //Only the server is allowed to grand invincibility;
             if (!IsOwner)
                 return;
@@ -140,9 +137,6 @@ namespace Erikduss
 
         public void RevokeInvincibility()
         {
-            //Show indicator on all clients
-            PlayerMaterialManagement.Instance.SetInvincibilityIndicator(this.gameObject, false);
-
             //Only the server is allowed to grand invincibility;
             if (!IsOwner)
                 return;

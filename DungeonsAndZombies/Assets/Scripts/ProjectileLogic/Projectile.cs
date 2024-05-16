@@ -29,7 +29,6 @@ namespace Erikduss
         private NetworkObject netObj;
         protected Rigidbody rb;
         public ProjectileDamageCollider projectileCollider;
-        private AIIxeleceCharacterManager backUpBossCharManager;
 
         public bool spawnObjectOnCollision = false;
         public PooledObjectType objectToSpawn = PooledObjectType.NONE;
@@ -140,8 +139,6 @@ namespace Erikduss
             objectEnabled.OnValueChanged += OnObjectEnabledChange;
 
             projectileOwnerNetworkID.OnValueChanged += OnProjectileOwnerNetworkIDChange; //should be done on both the server and the client.
-
-            if (backUpBossCharManager == null) backUpBossCharManager = FindObjectOfType<AIIxeleceCharacterManager>();
         }
 
         public override void OnNetworkDespawn()
@@ -196,7 +193,6 @@ namespace Erikduss
             if (projectileOwner == null && newID == 0) return;
 
             if (projectileOwner == null && WorldAIManager.Instance.spawnedInBosses.Count > 0) projectileOwner = WorldAIManager.Instance.spawnedInBosses[0];
-            else if (projectileOwner == null) projectileOwner = backUpBossCharManager;
 
             projectileCollider.characterCausingDamage = projectileOwner;
         }

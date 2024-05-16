@@ -19,11 +19,9 @@ namespace Erikduss
         [SerializeField] float runningSpeed = 5;
         [SerializeField] float sprintingSpeed = 6.5f;
         [SerializeField] float rotationSpeed = 15;
-        [SerializeField] float sprintingStaminaCost = 2;
 
         [Header("Jump")]
         [SerializeField] float jumpHeight = 2f;
-        [SerializeField] float jumpStaminaCost = 25f;
         [SerializeField] float jumpForwardSpeed = 5f;
         [SerializeField] float freeFallSpeed = 2f;
         private Vector3 jumpDirection;
@@ -31,7 +29,6 @@ namespace Erikduss
 
         [Header("Dodge")]
         private Vector3 rollDirection;
-        [SerializeField] float dodgeStaminaCost = 25f;
 
         [Header("Footsteps")]
         [SerializeField] float groundCheckForFeet = .5f;
@@ -83,7 +80,7 @@ namespace Erikduss
 
                 if (!player.playerNetworkManager.isLockedOn.Value || player.playerNetworkManager.isSprinting.Value)
                 {
-                    player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount, player.playerNetworkManager.isSprinting.Value);
+                    player.playerAnimatorManager.UpdateAnimatorMovementParameters(horizontalMovement, moveAmount, player.playerNetworkManager.isSprinting.Value);
                 }
                 else
                 {
@@ -260,12 +257,6 @@ namespace Erikduss
                 player.playerNetworkManager.isSprinting.Value = false;
             }
 
-            if (player.playerNetworkManager.currentStamina.Value <= 0)
-            {
-                player.playerNetworkManager.isSprinting.Value = false;
-                return;
-            }
-
             //if we are moving sprinting is true.
             if (moveAmount >= 0.5f)
             {
@@ -275,11 +266,6 @@ namespace Erikduss
             {
                 player.playerNetworkManager.isSprinting.Value = false;
             }
-
-            if (player.playerNetworkManager.isSprinting.Value)
-            {
-                player.playerNetworkManager.currentStamina.Value -= sprintingStaminaCost * Time.deltaTime;
-            }
         }
 
         public void AttemptToPerformDodge()
@@ -288,9 +274,6 @@ namespace Erikduss
                 return;
 
             if (!player.characterLocomotionManager.isGrounded)
-                return;
-
-            if (player.playerNetworkManager.currentStamina.Value <= 0)
                 return;
 
             //If we are moving when we attempt to dodge, we perform a roll.
@@ -312,18 +295,12 @@ namespace Erikduss
             {
                 player.playerAnimatorManager.PlayTargetActionAnimation("Back_Step_01", true, true);
             }
-
-            player.playerNetworkManager.currentStamina.Value -= dodgeStaminaCost;
         }
 
         public void AttemptToPerformJump()
         {
             //If we are performing a general action we do not allow jumping. (Can change later with jump attack)
             if (player.isPerformingAction)
-                return;
-
-            //Can only jump when we have stamina
-            if (player.playerNetworkManager.currentStamina.Value <= 0)
                 return;
 
             if (player.characterNetworkManager.isJumping.Value)
@@ -340,8 +317,6 @@ namespace Erikduss
             {
                 player.characterNetworkManager.isJumping.Value = true;
             }
-
-            player.playerNetworkManager.currentStamina.Value -= jumpStaminaCost;
 
             jumpDirection = PlayerCamera.instance.cameraObject.transform.forward * PlayerInputManager.instance.vertical_Input;
             jumpDirection += PlayerCamera.instance.cameraObject.transform.right * PlayerInputManager.instance.horizontal_Input;

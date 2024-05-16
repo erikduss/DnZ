@@ -351,7 +351,7 @@ namespace Erikduss
 
             if (!player.playerNetworkManager.isLockedOn.Value || player.playerNetworkManager.isSprinting.Value)
             {
-                player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount, player.playerNetworkManager.isSprinting.Value);
+                player.playerAnimatorManager.UpdateAnimatorMovementParameters(horizontal_Input, moveAmount, player.playerNetworkManager.isSprinting.Value);
             }
             else
             {

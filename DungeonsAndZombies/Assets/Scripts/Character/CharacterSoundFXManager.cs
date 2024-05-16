@@ -38,10 +38,5 @@ namespace Erikduss
             startedGame = true;
             audioSource.PlayOneShot(WorldSoundFXManager.instance.ChooseRandomSFXFromArray(WorldSoundFXManager.instance.footstepSFX));
         }
-
-        public void PlayRollSoundFX()
-        {
-            audioSource.PlayOneShot(WorldSoundFXManager.instance.rollSFX);
-        }
     }
 }

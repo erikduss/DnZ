@@ -134,6 +134,8 @@ namespace Erikduss
                 targetRotation = Quaternion.Euler(cameraRotation);
                 transform.rotation = targetRotation;
 
+                player.transform.rotation = targetRotation;
+
                 //Rotate the PIVOT gameobject up and down.
                 cameraRotation = Vector3.zero;
                 cameraRotation.x = upAndDownLookAngle;

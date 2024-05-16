@@ -51,9 +51,6 @@ namespace Erikduss
             //Handle all of our character's movement.
             playerLocomotionManager.HandleAllMovement();
 
-            playerStatsManager.RegenerateStamina();
-
-
             DebugMenu();
         }
 
@@ -83,11 +80,8 @@ namespace Erikduss
                 WorldSaveGameManager.instance.player = this;
 
                 playerNetworkManager.vitality.OnValueChanged += playerNetworkManager.SetNewMaxHealthValue;
-                playerNetworkManager.endurance.OnValueChanged += playerNetworkManager.SetNewMaxStaminaValue;
 
                 playerNetworkManager.currentHealth.OnValueChanged += PlayerUIManager.instance.playerUIHudManager.SetNewHealthValue;
-                playerNetworkManager.currentStamina.OnValueChanged += PlayerUIManager.instance.playerUIHudManager.SetNewStaminaValue;
-                playerNetworkManager.currentStamina.OnValueChanged += playerStatsManager.ResetStaminaRegenTimer;
             }
 
             //Stats
@@ -104,33 +98,6 @@ namespace Erikduss
 
             //Flags
             playerNetworkManager.isChargingAttack.OnValueChanged += playerNetworkManager.OnIsChargingAttackChanged;
-
-            //Player colors
-            playerNetworkManager.playerMaterialID.OnValueChanged += playerNetworkManager.OnMaterialIDChange;
-            playerNetworkManager.playerCustomMaterialColor.OnValueChanged += playerNetworkManager.OnMaterialColorChange;
-
-            if (IsServer)
-            {
-                //Set the color of the additional player's model.
-                int nextIndex = PlayerMaterialManagement.Instance.lastSelectedMaterialIndex++;
-                Color backupColor = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
-                bool useCustomColor = false;
-
-                if (nextIndex > PlayerMaterialManagement.Instance.additionalPlayerMaterials.Count)
-                {
-                    useCustomColor = true;
-                    playerNetworkManager.playerMaterialID.Value = -1;
-                    playerNetworkManager.playerCustomMaterialColor.Value = backupColor;
-                }
-                else
-                    playerNetworkManager.playerMaterialID.Value = nextIndex;
-
-                PlayerMaterialManagement.Instance.SetMaterial(this, nextIndex, backupColor, useCustomColor);
-            }
-            else
-            {
-                playerNetworkManager.OnMaterialIDChange(0, playerNetworkManager.playerMaterialID.Value);
-            }
 
             //Upon connecting, if we are the owner of this character but not the server. Reload our character data
             //Server doesnt need to reload due to the character not being deleted.
@@ -155,11 +122,8 @@ namespace Erikduss
             if (IsOwner)
             {
                 playerNetworkManager.vitality.OnValueChanged -= playerNetworkManager.SetNewMaxHealthValue;
-                playerNetworkManager.endurance.OnValueChanged -= playerNetworkManager.SetNewMaxStaminaValue;
 
                 playerNetworkManager.currentHealth.OnValueChanged -= PlayerUIManager.instance.playerUIHudManager.SetNewHealthValue;
-                playerNetworkManager.currentStamina.OnValueChanged -= PlayerUIManager.instance.playerUIHudManager.SetNewStaminaValue;
-                playerNetworkManager.currentStamina.OnValueChanged -= playerStatsManager.ResetStaminaRegenTimer;
             }
 
             //Stats
@@ -176,10 +140,6 @@ namespace Erikduss
 
             //Flags
             playerNetworkManager.isChargingAttack.OnValueChanged -= playerNetworkManager.OnIsChargingAttackChanged;
-
-            //Player colors
-            playerNetworkManager.playerMaterialID.OnValueChanged -= playerNetworkManager.OnMaterialIDChange;
-            playerNetworkManager.playerCustomMaterialColor.OnValueChanged -= playerNetworkManager.OnMaterialColorChange;
         }
 
         private void OnClientConnectedCallback(ulong clientID)
@@ -194,13 +154,6 @@ namespace Erikduss
                     if (player != this)
                     {
                         player.LoadOtherPlayerCharacterWhenJoiningServer();
-                    }
-                    else //We still need to set our own color
-                    {
-                        bool useCustomColor = false;
-                        //if (playerNetworkManager.playerMaterialID.Value == -1) useCustomColor = true;
-
-                        PlayerMaterialManagement.Instance.SetMaterial(this, playerNetworkManager.playerMaterialID.Value, playerNetworkManager.playerCustomMaterialColor.Value, useCustomColor);
                     }
                 }
             }
@@ -250,7 +203,6 @@ namespace Erikduss
             if (IsOwner)
             {
                 playerNetworkManager.currentHealth.Value = playerNetworkManager.maxHealth.Value;
-                playerNetworkManager.currentStamina.Value = playerNetworkManager.maxStamina.Value;
                 playerNetworkManager.isDead.Value = false;
                 playerNetworkManager.isLockedOn.Value = false;
 
@@ -270,10 +222,8 @@ namespace Erikduss
             currentCharacterData.xPosition = transform.position.x;
 
             currentCharacterData.currentHealth = playerNetworkManager.currentHealth.Value;
-            currentCharacterData.currentStamina = playerNetworkManager.currentStamina.Value;
 
             currentCharacterData.vitality = playerNetworkManager.vitality.Value;
-            currentCharacterData.endurance = playerNetworkManager.endurance.Value;
 
         }
 
@@ -284,13 +234,9 @@ namespace Erikduss
             transform.position = myPosition;
 
             playerNetworkManager.vitality.Value = currentCharacterData.vitality;
-            playerNetworkManager.endurance.Value = currentCharacterData.endurance;
 
             playerNetworkManager.maxHealth.Value = playerStatsManager.CalculateHealthBasedOnVitalityLevel(playerNetworkManager.vitality.Value);
-            playerNetworkManager.maxStamina.Value = playerStatsManager.CalculateStaminaBasedOnEnduranceLevel(playerNetworkManager.endurance.Value);
             playerNetworkManager.currentHealth.Value = currentCharacterData.currentHealth;
-            playerNetworkManager.currentStamina.Value = currentCharacterData.currentStamina;
-            PlayerUIManager.instance.playerUIHudManager.SetMaxStaminaValue(playerNetworkManager.maxStamina.Value);
         }
 
         public void LoadOtherPlayerCharacterWhenJoiningServer()
@@ -298,17 +244,6 @@ namespace Erikduss
             //sync weapons
             playerNetworkManager.OnCurrentRightHandWeaponIDChange(0, playerNetworkManager.currentRightHandWeaponID.Value);
             playerNetworkManager.OnCurrentLeftHandWeaponIDChange(0, playerNetworkManager.currentLeftHandWeaponID.Value);
-
-            //SET THE CORRECT COLORS OF PLAYERS
-            if (!IsServer && !IsHost) //The server has default colors.
-            {
-                bool useCustomColor = false;
-                //if (playerNetworkManager.playerMaterialID.Value == -1) useCustomColor = true;
-
-                playerNetworkManager.OnMaterialIDChange(0, playerNetworkManager.playerMaterialID.Value);
-
-                //PlayerMaterialManagement.Instance.SetMaterial(this, playerNetworkManager.playerMaterialID.Value, playerNetworkManager.playerCustomMaterialColor.Value, useCustomColor);
-            }
 
             //Set lock on target if locked on.
             if (playerNetworkManager.isLockedOn.Value)

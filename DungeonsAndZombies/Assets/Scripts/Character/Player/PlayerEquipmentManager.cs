@@ -7,6 +7,7 @@ namespace Erikduss
     public class PlayerEquipmentManager : CharacterEquipmentManager
     {
         PlayerManager player;
+        //Where to initialize the weapons
         public WeaponModelInstantiationSlot rightHandSlot;
         public WeaponModelInstantiationSlot leftHandSlot;
 
