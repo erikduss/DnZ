@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0583264990a84b45923b71d32e279ed
+timeCreated: 1508095661
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/Smoke_1.mat
+  uploadId: 502476

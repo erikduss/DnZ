@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac4ad1cfec89f1a48b7968ed04f0c9e0
+timeCreated: 1501694007
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/Water.mat
+  uploadId: 502476

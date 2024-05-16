@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8bc3cc802e8bc174ba239f78a4e31945
+timeCreated: 1509047554
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Nature Prefabs/Prefabs/Rocks/Chiseled/Rock
+    Walls, Nature Modules/Rock_Wall_2B3_LOD_0.prefab
+  uploadId: 502476

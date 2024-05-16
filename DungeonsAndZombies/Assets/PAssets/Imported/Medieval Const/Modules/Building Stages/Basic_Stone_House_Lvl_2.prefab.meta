@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a20271a382015854b8e729a5f8070d68
+timeCreated: 1500478675
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Modules/Building Stages/Basic_Stone_House_Lvl_2.prefab
+  uploadId: 502476

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 73fc9b427c9c0e446862576362341bee
+timeCreated: 1518363540
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Modules/Fast Housing/Medieval Plaster/House_7_Mahogany.prefab
+  uploadId: 502476

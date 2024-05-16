@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd7600d6f226056439deb1809bd8d970
+timeCreated: 1500303132
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/Build_Map_1A2_B.mat
+  uploadId: 502476

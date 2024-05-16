@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f9982e83f1640ae40934a38c4ddebe42
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/Leaves_Gradient_Windy.shader
+  uploadId: 502476

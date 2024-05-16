@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b01d42015bcaca45977e07daae8760f
+timeCreated: 1501364500
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/Nighttime Sky.mat
+  uploadId: 502476

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ccad981c003109d46bbcea4c8395003b
+timeCreated: 1509653331
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/Thatch_Map_2A1.mat
+  uploadId: 502476

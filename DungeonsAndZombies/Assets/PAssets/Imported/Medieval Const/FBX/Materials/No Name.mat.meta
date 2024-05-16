@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d1b4e6faea5d26d4bbb014fcb2c1c814
+timeCreated: 1509558888
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/No Name.mat
+  uploadId: 502476

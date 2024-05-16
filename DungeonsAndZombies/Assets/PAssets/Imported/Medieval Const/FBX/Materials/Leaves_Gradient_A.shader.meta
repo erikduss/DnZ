@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 967eb9e5fe7ac4744afa98408b29b234
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/FBX/Materials/Leaves_Gradient_A.shader
+  uploadId: 502476
