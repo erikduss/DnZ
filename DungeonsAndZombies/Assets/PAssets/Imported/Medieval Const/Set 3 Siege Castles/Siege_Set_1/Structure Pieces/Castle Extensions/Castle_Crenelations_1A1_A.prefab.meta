@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dd5aa6528dc628743be94ac6253e54f6
+timeCreated: 1517671283
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs Set 3 (Siege Castles)/Siege_Set_1/Structure
+    Pieces/Castle Extensions/Castle_Crenelations_1A1_A.prefab
+  uploadId: 502476

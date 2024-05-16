@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3aea97830d895b14b9cedfade61a4a26
+timeCreated: 1508952386
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs/Housing/Levels of Building/Wood
+    Mossy/Plaster/Set_2/Wall_4.25x4_Doorway_Lvl2.prefab
+  uploadId: 502476

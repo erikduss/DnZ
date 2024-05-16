@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dce21fee418d644489532fc909cae484
+timeCreated: 1517852121
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs Set 3 (Siege Castles)/Siege_Set_2/Modular
+    Wall for Wall/Large/Module Examples/Gatehouse_Advanced_Module_1A1.prefab
+  uploadId: 502476

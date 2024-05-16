@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 378c78af57bff694183e6beaedec1555
+timeCreated: 1508952339
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs/Housing/Levels of Building/Wood
+    Mossy/Plaster/Set_2/Wall_2.25x3_Lvl3.prefab
+  uploadId: 502476

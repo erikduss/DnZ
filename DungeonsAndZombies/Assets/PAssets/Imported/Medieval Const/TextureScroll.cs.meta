@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 478e79c3b856bee429a76e6f0fc3de01
+timeCreated: 1498958108
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/TextureScroll.cs
+  uploadId: 502476

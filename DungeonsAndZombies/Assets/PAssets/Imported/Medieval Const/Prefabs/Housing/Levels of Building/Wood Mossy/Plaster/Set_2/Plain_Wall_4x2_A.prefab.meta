@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0538112784de60b4ea2ca90647032680
+timeCreated: 1508952329
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs/Housing/Levels of Building/Wood
+    Mossy/Plaster/Set_2/Plain_Wall_4x2_A.prefab
+  uploadId: 502476

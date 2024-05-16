@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b6b4bc3f4c35e004b87ecf5cfc49cae9
+timeCreated: 1517345554
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs Set 3 (Siege Castles)/Siege_Set_1/Structure
+    Pieces/Castle Walls/Large_Wall_Stairs_1A2_A.prefab
+  uploadId: 502476

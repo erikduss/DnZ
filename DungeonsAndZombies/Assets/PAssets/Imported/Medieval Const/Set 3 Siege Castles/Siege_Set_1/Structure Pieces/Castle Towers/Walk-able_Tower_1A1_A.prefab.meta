@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 41b6ae68d07f0214883e73727501ec18
+timeCreated: 1517345794
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs Set 3 (Siege Castles)/Siege_Set_1/Structure
+    Pieces/Castle Towers/Walk-able_Tower_1A1_A.prefab
+  uploadId: 502476

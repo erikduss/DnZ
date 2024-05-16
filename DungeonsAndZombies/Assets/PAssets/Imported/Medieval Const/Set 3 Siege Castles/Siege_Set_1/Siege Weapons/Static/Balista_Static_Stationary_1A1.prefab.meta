@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f6e642ba9d200cd44be45d2e6b3512f6
+timeCreated: 1517435921
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs Set 3 (Siege Castles)/Siege_Set_1/Siege
+    Weapons/Static/Balista_Static_Stationary_1A1.prefab
+  uploadId: 502476

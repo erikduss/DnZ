@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5406e04567722214e921d1d494f54317
+timeCreated: 1517345546
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97279
+  packageName: Ultimate Medieval Constructor
+  packageVersion: 2.0.0
+  assetPath: Assets/Ultimate Medieval Constructor/Prefabs Set 3 (Siege Castles)/Siege_Set_1/Structure
+    Pieces/Castle Extensions/Castle_Wall_Window_Awning_1A1.prefab
+  uploadId: 502476
